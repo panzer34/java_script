@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-dark>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
     <link rel="stylesheet" href="css/dom-ejercicios.css" />
   </head>
-  <body>
+  <body data-dark>
 
     <header class="header">
       <h1>Ejercicios del DOM</h1>
@@ -24,7 +24,7 @@
       <nav class="menu">
         <a href="#seccion1">Reloj Digital y Alarma Sonora</a>
         <a href="#seccion2">Eventos del Teclado</a>
-        <a href="#seccion3">Seccion 3</a>
+        <a href="#seccion3">Cuenta Regresiva</a>
         <a href="#seccion4">Seccion 4</a>
         <a href="#seccion5">Seccion 5</a>
       </nav>
@@ -43,9 +43,17 @@
       </section>
       <section id="seccion2" class="section">
         <h2>Eventos del Teclado</h2>
+        <article class="stage">
+          <div class="ball">
+
+          </div>
+        </article>
       </section>
       <section id="seccion3" class="section">
-        <h2>Seccion 3</h2>
+        <h2>Cuenta Regresiva</h2>
+        <div id="countdown">
+
+        </div>
       </section>
       <section id="seccion4" class="section">
         <h2>Seccion 4</h2>
@@ -54,6 +62,14 @@
         <h2>Seccion 5</h2>
       </section>
     </main>
+
+    <button class="scroll-top-btn hidden">
+      &#11014;
+    </button>
+
+    <button class="dark-theme-btn">🌙</button>
+
+    
 
 
 
