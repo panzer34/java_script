@@ -10,9 +10,12 @@ import hamburguerMenu from "./dom/menu_hamburguesa.js";
 import responsiveMedia from "./dom/objeto_responsive.js";
 import responsiveTester from "./dom/prueba_responsive.js";
 import { digitalClock, alarm } from "./dom/reloj.js";
+import scrollSpy from "./dom/scroll_espia.js";
 import draw from "./dom/sorteo.js";
 import { moveBall, shortcuts } from "./dom/teclado.js";
 import darkTheme from "./dom/tema_oscuro.js";
+import contactFormValidations from "./dom/validaciones_formularios.js";
+import smartVideo from "./dom/video_inteligente.js";
 
 
 
@@ -62,7 +65,9 @@ d.addEventListener("DOMContentLoaded", (e) => {
   searchFilters(".card-filter", ".card");
   draw("#winner-btn", ".player");
   slider();
-
+  scrollSpy();
+  smartVideo();
+  contactFormValidations();
 });
 
 d.addEventListener("keydown", (e) => {
