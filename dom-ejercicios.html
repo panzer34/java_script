@@ -36,7 +36,7 @@
         <a href="#seccion12" data-scroll-spy>Responsive Slider</a>
         <a href="#seccion13" data-scroll-spy>Video Inteligente</a>
         <a href="#seccion14" data-scroll-spy>Validacion de Formularios</a>
-        <a href="#seccion15" data-scroll-spy></a>
+        <a href="#seccion15" data-scroll-spy>Narrador</a>
 
       </nav>
     </aside>
@@ -186,7 +186,7 @@
       
       <section id="seccion14" class="section" data-scroll-spy>
         <h2>Validacion de Formularios</h2>
-        <form class="contact-form">
+        <form class="contact-form" action="https://formsubmit.co/colocar_email" method="POST">
           <legend>Envianos tus comentarios</legend>
           <input type="text" name="name" placeholder="Escribe tu nombre" 
           title="El nombre solo acepta letras y espacios en blancos" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
@@ -210,7 +210,14 @@
         </form>
       </section>
       <section id="seccion15" class="section" data-scroll-spy>
-        <h2>Seccion 15</h2>
+        <h2>Narrador</h2>
+        <select id="speech-select">
+          <option value="">-----Elige una Voz</option>
+        </select>
+        <br><br>
+        <textarea name="" id="speech-text" cols="50" rows="5" placeholder="Ingresa texto para leerlo"></textarea>
+        <br><br>
+        <button id="speech-btn">Leer Texto</button>
       </section>
     </main>
 
