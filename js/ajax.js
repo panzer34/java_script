@@ -184,3 +184,11 @@ const $axiosAsync = document.getElementById("axios-async"),
 
 
 
+
+
+
+/* ******************** Curso de Javascript 112. API REST: JSON Server - API falsa local ************************ */
+
+
+
+
